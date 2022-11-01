@@ -1,9 +1,8 @@
 ---
-key_name: "SSH 키 파일명을 입력하세요."
-region: "AWS 리전 아이디를 입력하세요."
-image: "EC2 이미지 아이디 입력하세요."
-sec_group: "Security Group 아이디를 입력하세요."
-vpc_subnet_id: "Subnet 아이디를 입력하세요."
-instance_name: "Instance 이름을 입력하세요."
-instance_type: "Instance 타입을 입력하세요."
-
+key_name: sangyun-tokyo-keypair
+region: ap-northeast-1
+image: ami-0de5311b2a443fb89
+sec_group: devos-demo-sg
+vpc_subnet_id: subnet-07e6775dad8f6950f
+instance_name: devos-demo-ec2
+instance_type: t2.micro
